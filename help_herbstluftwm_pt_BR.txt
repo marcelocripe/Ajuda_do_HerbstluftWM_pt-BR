@@ -9,23 +9,23 @@ Introdução ao gerenciador de janelas Herbstluftwm (hlwm)
 
 Mod=mod4
 mod4 key = windows key
-Mod=mod4
-tecla mod4 = tecla do windows
+Modificador=mod4
+Tecla Modificadora 4 = Tecla do Windows
 
 Mod-Shift-q - This will take you to the login screen.
 Mod-Shift-b - Reboot
-Mod-Shift-q - Isto o levará para a tela de início de sessão ou de autenticação.
-Mod-Shift-b - Reinicializar
+Modificador+Shift+q - Isto o levará para a tela de início de sessão ou de autenticação.
+Modificador+Shift+b - Reinicializar
 
 Mod-Return - Terminal
 Mod-d - dmenu
 Mod-o - splits the screen horizontally
 Mod-u - splits the screen vertically
 
-Mod-Return - Terminal
-Mod-d - dmenu
-Mod-o - divide a tela horizontalmente
-Mod-u - divide a tela verticalmente
+Tecla Modificadora-Return (Enter) - Terminal
+Tecla Modificadora-D - DMenu
+Tecla Modificadora-O - Divide a tela horizontalmente
+Tecla Modificadora-U - Divide a tela verticalmente
 
 
 Full list of pre-set keybinds
@@ -38,12 +38,12 @@ Mod+Shift+b spawn sudo persist-config --shutdown --command reboot
 Mod-Shift-b spawn sudo reboot
 Mod-Shift-t spawn sudo halt
 
-Mod+Shift+q sair
-Mod+Shift+r recarregar
-Mod+Shift+c fechar
-Mod+Shift+b spawn sudo persist-config --shutdown --command reboot
-Mod-Shift-b spawn sudo reboot
-Mod-Shift-t spawn sudo halt
+Tecla Modificadora+Shift+Q  Sair
+Tecla Modificadora+Shift+R  Recarregar
+Tecla Modificadora+Shift+C  Fechar
+Tecla Modificadora+Shift+B  Aplicar o comando "sudo persist-config --shutdown --command reboot"
+Tecla Modificadora+Shift-B  Aplicar o comando "sudo reboot"
+Tecla Modificadora+Shift-T  Aplicar o comando "sudo halt"
 
 
 # basic movement in tiling and floating mode
@@ -60,14 +60,14 @@ Mod-j     focus down
 Mod-k     focus up
 Mod-l     focus right
 
-Mod-Esquerda  foco para à esquerda
-Mod-Baixo     foco para baixo
-Mod-Cima      foco para cima
-Mod-Direita   foco para à direita
-Mod-h         foco para à esquerda
-Mod-j         foco para baixo
-Mod-k         foco para cima
-Mod-l         foco para à direita
+Tecla Modificadora-Seta para a Esquerda  Foco para à esquerda
+Tecla Modificadora-Seta para a Baixo     Foco para baixo
+Tecla Modificadora-Seta para a Cima      Foco para cima
+Tecla Modificadora-Seta para a Direita   Foco para à direita
+Tecla Modificadora-H                     Foco para à esquerda
+Tecla Modificadora-J                     Foco para baixo
+Tecla Modificadora-K                     Foco para cima
+Tecla Modificadora-L                     Foco para à direita
 
 
 # moving clients in tiling and floating mode
@@ -82,14 +82,14 @@ Mod-Shift-j     shift down
 Mod-Shift-k     shift up
 Mod-Shift-l     shift right
 
-Mod-Shift-Left   deslocamento para à esquerda
-Mod-Shift-Down   deslocamento para baixo
-Mod-Shift-Up     deslocamento para cima
-Mod-Shift-Right  deslocamento para à direita
-Mod-Shift-h      deslocamento para à esquerda
-Mod-Shift-j      desloca para baixo
-Mod-Shift-k      deslocamento para cima
-Mod-Shift-l      deslocamento para à direita
+Tecla Modificadora-Shift-Seta para a Esquerda   Deslocamento para à esquerda
+Tecla Modificadora-Shift-Seta para a Baixo      Deslocamento para baixo
+Tecla Modificadora-Shift-Seta para a Cima       Deslocamento para cima
+Tecla Modificadora-Shift-Seta para a Direita    Deslocamento para à direita
+Tecla Modificadora-Shift-H                      Deslocamento para à esquerda
+Tecla Modificadora-Shift-J                      Desloca para baixo
+Tecla Modificadora-Shift-K                      Deslocamento para cima
+Tecla Modificadora-Shift-L                      Deslocamento para à direita
 
 
 # splitting frames
@@ -100,15 +100,15 @@ Mod-Shift-l      deslocamento para à direita
 Mod-u       split   bottom  0.5
 Mod-o       split   right   0.5
 
-Mod-u       dividido embaixo 0,5
-Mod-o       dividido à direita 0,5
+Tecla Modificadora-U       Dividido embaixo 0,5
+Tecla Modificadora-O       Dividido à direita 0,5
 
 
 # let the current frame explode into subframes
 # deixa o quadro atual explodir em subquadros
 
 Mod-Control-space split explode
-Mod-Control-space divisão explodida
+Tecla Modificadora-Control-Espaço  Divisão explodida
 
 
 # resizing frames and floating clients
@@ -125,14 +125,14 @@ Mod-Control-Up      resize up +$resizestep
 Mod-Control-Right   resize right +$resizestep
 
 resizestep=0,02
-Mod-Control-h       redimensionar para à esquerda +$resizestep
-Mod-Control-j       redimensiona para baixo +$resizestep
-Mod-Control-k       redimensionar para cima +$resizestep
-Mod-Control-l       redimensionar para à direita +$resizestep
-Mod-Control-Left    redimensionar para à esquerda +$resizestep
-Mod-Control-Down    redimensionar para baixo +$resizestep
-Mod-Control-Up      redimensionar para cima +$resizestep
-Mod-Control-Right   redimensionar para à direita +$resizestep
+Tecla Modificadora-Control-H           Redimensionar para à esquerda +$resizestep
+Tecla Modificadora-Control-J           Redimensiona para baixo +$resizestep
+Tecla Modificadora-Control-K           Redimensionar para cima +$resizestep
+Tecla Modificadora-Control-L           Redimensionar para à direita +$resizestep
+Tecla Modificadora-Control-Esquerda    Redimensionar para à esquerda +$resizestep
+Tecla Modificadora-Control-Baixo       Redimensionar para baixo +$resizestep
+Tecla Modificadora-Control-Cima        Redimensionar para cima +$resizestep
+Tecla Modificadora-Control-Direita     Redimensionar para à direita +$resizestep
 
 
 # Open apps
@@ -142,16 +142,16 @@ Mod-Return spawn roxterm
 Mod-d spawn dmenu_run 
 Mod-n spawn firefox-esr
 
-Mod-Return   abrir o roxterm
-Mod-d spawn  abrir o lançador de aplicativos dmenu_run
-Mod-n spawn  abrir o navegador de internet firefox-esr
+Tecla Modificadora-Return (Enter)   Abrir o roxterm
+Tecla Modificadora-D                Abrir o lançador de aplicativos dmenu_run
+Tecla Modificadora-N                Abrir o navegador de internet firefox-esr
 
 
 # screenshots
 # capturas de tela
 
 Mod-F12 spawn scrot -t 20 -d 2 ~/%Y-%m-%d-%T-screenshot.png
-Mod-F12 produzir a captura de tela -t 20 -d 2 ~/%Y-%m-%d-%T-screenshot.png
+Tecla Modificadora-F12 Produzir a captura de tela -t 20 -d 2 ~/%Y-%m-%d-%T-screenshot.png
 
 
 # Media volume
@@ -172,4 +172,4 @@ hc keybind XF86AudioMute spawn ~/.config/herbstluftwm/scripts/volume.sh         
 Créditos:
 GitHub: https://github.com/herbstluftwm/herbstluftwm.
 Criador do Gerenciador de Janelas Herbstluftwm: Thorsten Wißmann.
-Tradução para o idioma Português do Brasil: marcelocripe no dia 10-05-2022.
+Tradução para o idioma Português do Brasil: marcelocripe no dia 13-05-2022.
