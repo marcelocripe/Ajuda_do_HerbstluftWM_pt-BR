@@ -190,6 +190,6 @@ hc keybind XF86AudioMute abrir o ~/.config/herbstluftwm/scripts/volume.sh       
 #GitLab: https://gitlab.com/antiX-Linux/desktop-defaults-hlwm/-/blob/master/skel/.config/herbstluftwm/help.txt
 
 #A tradução para o idioma Português do Brasil foi feita por marcelocripe no dia 13-05-2022.
-#A revisão da tradução para o idioma Português do Brasil foi feita por marcelocripe e Luck002 no dia 25-06-2023.
-#https://github.com/marcelocripe/Ajuda_do_HerbstluftWM_pt-BR
-#https://gitlab.com/marcelocripe/Ajuda_do_HerbstluftWM_pt-BR
+#A revisão da tradução para o idioma Português do Brasil foi feita por marcelocripe e Luck002 no dia 25-06-2023 e estão disponíveis no
+#GitHub: https://github.com/marcelocripe/Ajuda_do_HerbstluftWM_pt-BR
+#GitLab: https://gitlab.com/marcelocripe/Ajuda_do_HerbstluftWM_pt-BR
